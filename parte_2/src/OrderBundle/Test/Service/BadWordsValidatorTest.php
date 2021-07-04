@@ -4,7 +4,6 @@ namespace OrderBundle\Test\Service;
 
 use OrderBundle\Repository\BadWordsRepository;
 use OrderBundle\Service\BadWordsValidator;
-use OrderBundle\Test\Service\Stubs\BadWordsRepositoryStub;
 use PHPUnit\Framework\TestCase;
 
 class BadWordsValidatorTest extends TestCase {
