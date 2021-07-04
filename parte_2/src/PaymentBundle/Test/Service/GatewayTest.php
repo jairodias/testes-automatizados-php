@@ -87,7 +87,9 @@ class GatewayTest extends TestCase
         $this->assertEquals(false, $paid);
     }
 
-
+    /**
+     * @test
+     */
     public function shouldSuccessfullyPayWhenGatewayReturnOk()
     {
         $httpClient = $this->createMock(HttpClientInterface::class);
